@@ -52,6 +52,8 @@ public class HomeController {
 		return "home";
 	}
 	
+	// 내용추가 
+	
 	@RequestMapping("/list")
 	public String list(Model model) {
 //		ArrayList<ContentDto> dtos = dao.listDao();
